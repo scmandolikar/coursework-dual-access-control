@@ -1,0 +1,43 @@
+# Core Cryptography
+charm-crypto==0.50
+cryptography>=41.0.0
+
+# Web Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+python-jose[cryptography]>=3.3.0
+pyjwt>=2.8.0
+
+# Database
+sqlalchemy>=2.0.0
+alembic>=1.12.0
+psycopg2-binary>=2.9.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Redis & Caching
+redis>=5.0.0
+celery>=5.3.0
+
+# HTTP & API
+requests>=2.31.0
+httpx>=0.25.0
+
+# Security
+bcrypt>=4.1.0
+python-dotenv>=1.0.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+
+# Logging & Monitoring
+loguru>=0.7.0
+python-json-logger>=2.0.0
+
+# Utilities
+pydantic-extra-types>=2.0.0
+click>=8.1.0
+rich>=13.0.0
